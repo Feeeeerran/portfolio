@@ -1,0 +1,27 @@
+// Algunos componentes
+@import 'variables';
+@import 'components/separador';
+@import 'components/footer';
+
+// Secciones
+@import 'sections/init';
+@import 'sections/sobreMi';
+@import 'sections/skills';
+@import 'sections/experiencia';
+@import 'sections/contacto';
+
+// Querys
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+
+    section {
+        width: 100%;
+    }
+}

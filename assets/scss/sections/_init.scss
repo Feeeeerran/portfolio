@@ -1,0 +1,31 @@
+section#init {
+    height: 100vh;
+    background-color: $blanco;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+        margin: 0;
+        padding: 0% 5%;
+        padding-top: 10%;
+        color: $color-1;
+        font-family: $titulos;
+        font-size: 5em;
+
+        &::before {
+            content: '¡Hola! ';
+            color: $color-0;
+        }
+
+    }
+
+    h2 {
+        margin: 0;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        color: $color-2;
+        font-family: $titulos-2;
+        text-align: right;
+    }
+}

@@ -1,0 +1,43 @@
+section#contacto {
+    // height: 100vh;
+    padding: 10vh 0;
+
+    h2 {
+        margin:0;
+        font-family: $titulos-2;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .icons {
+        margin:5vh 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            height: auto;
+        }
+
+
+        .github>svg {
+            stroke:$color-3;
+        }
+        .linkedin>svg {
+            stroke:$color-1;
+        }
+        .whatsapp>svg {
+            stroke:$color-5;
+        }
+        .mail>svg {
+            stroke:red;
+        }
+
+
+    }
+
+
+
+}

@@ -1,0 +1,300 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.separador1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.separador1 .separador_elemento {
+  border-style: solid;
+  border-width: 0vh 10vw 8vh 10vw;
+  border-color: #EEC373 #246477;
+}
+
+footer {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2em;
+}
+
+section#init {
+  height: 100vh;
+  background-color: #FAEEE7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section#init h1 {
+  margin: 0;
+  padding: 0% 5%;
+  padding-top: 10%;
+  color: #24A19C;
+  font-family: "PT Serif", serif;
+  font-size: 5em;
+}
+
+section#init h1::before {
+  content: '¡Hola! ';
+  color: #131212;
+}
+
+section#init h2 {
+  margin: 0;
+  padding-bottom: 10%;
+  padding-right: 10%;
+  color: #FF6464;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: right;
+}
+
+section#sobreMi {
+  background-color: #246477;
+  padding: 10vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#sobreMi div {
+  width: 90%;
+}
+
+section#sobreMi div p {
+  margin: 0;
+  margin-top: 10%;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3em;
+  color: #FAEEE7;
+}
+
+section#skills {
+  height: 100vh;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  background-color: #EEC373;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#skills div {
+  width: 95%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#skills div div {
+  height: 50%;
+}
+
+section#skills div div h3 {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3em;
+  text-align: center;
+  color: #131212;
+}
+
+section#skills div div ul {
+  list-style: none;
+  padding: 0;
+}
+
+section#skills div div ul li {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 5% 0;
+}
+
+section#experiencia {
+  padding-top: 10vh;
+  background-color: #131212;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#experiencia * {
+  color: #FAEEE7;
+  font-family: "Ubuntu", sans-serif;
+}
+
+section#experiencia h2 {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+section#experiencia h2::before {
+  content: 'Formación ';
+  font-size: 1em;
+  color: #EEC373;
+}
+
+section#experiencia h2::after {
+  content: ' trabajo';
+  font-size: 1em;
+  color: #24A19C;
+}
+
+section#experiencia .expContainer {
+  width: 90%;
+  margin: 5vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section#experiencia .expContainer h3 {
+  color: #EEC373;
+  font-size: 1.5em;
+}
+
+section#experiencia .expContainer img {
+  width: 50%;
+  margin-bottom: 1vh;
+}
+
+section#experiencia .expContainer p {
+  margin: 0;
+  margin-top: 1vh;
+  font-size: 1.2em;
+}
+
+section#experiencia .formacion > h3 {
+  color: #EEC373;
+}
+
+section#experiencia .trabajo > h3 {
+  color: #24A19C;
+}
+
+section#contacto {
+  padding: 10vh 0;
+}
+
+section#contacto h2 {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+section#contacto .icons {
+  margin: 5vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#contacto .icons a {
+  height: auto;
+}
+
+section#contacto .icons .github > svg {
+  stroke: #246477;
+}
+
+section#contacto .icons .linkedin > svg {
+  stroke: #24A19C;
+}
+
+section#contacto .icons .whatsapp > svg {
+  stroke: #06d6a0;
+}
+
+section#contacto .icons .mail > svg {
+  stroke: red;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+body section {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

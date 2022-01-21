@@ -1,0 +1,70 @@
+section#experiencia {
+    // height: 100vh;
+    padding-top: 10vh;
+    background-color: $color-0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    * {
+        color: $blanco;
+        font-family: $texto;
+    }
+
+    h2 {
+        margin:0;
+        font-family: $titulos-2;
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    h2::before {
+        content: 'Formación ';
+        font-size: 1em;
+        color: $color-4;
+    }
+    
+    h2::after {
+        content: ' trabajo';
+        font-size: 1em;
+        color: $color-1;
+    }
+
+    .expContainer {
+        width: 90%;
+        margin:5vh 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        // border: 1px solid white;
+
+        h3 {
+            color: $color-4;
+            // text-decoration: underline;
+            font-size: 1.5em;
+        }
+        
+        img {
+            width: 50%;
+            margin-bottom: 1vh;
+        }
+        
+        p {
+            margin:0;
+            margin-top: 1vh;
+            font-size: 1.2em;
+        }
+    }
+
+    .formacion>h3 {
+        color:$color-4;
+    }
+    .trabajo>h3 {
+        color:$color-1;
+    }
+
+}
