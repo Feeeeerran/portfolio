@@ -1,7 +1,10 @@
 // Algunos componentes
 @import 'variables';
+@import 'efects/animations';
+
 @import 'components/separador';
 @import 'components/footer';
+
 
 // Secciones
 @import 'sections/init';
@@ -16,6 +19,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {

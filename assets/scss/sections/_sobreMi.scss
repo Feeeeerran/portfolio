@@ -1,7 +1,6 @@
 section#sobreMi {
     background-color: $color-3;
-    // height: 100vh;
-    padding: 10vh 0;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -9,6 +8,8 @@ section#sobreMi {
     align-items: center;
 
 
+    overflow-x: hidden;
+    overflow-y: hidden;
     div {
         width: 90%;
         // height: 90%;
@@ -17,12 +18,16 @@ section#sobreMi {
         // flex-direction: column;
         // justify-content: space-around;
 
+
+
         p {
-            margin: 0;
-            margin-top: 10%;
+            margin: 15% 0;
             font-family: $texto;
             font-size: 1.3em;
             color: $blanco;
+
+            // Para las animaciones
+            opacity: 0;
 
         }
 

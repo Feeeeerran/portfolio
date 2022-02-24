@@ -1,0 +1,103 @@
+// FADE IN UP
+.fadeIn-Up {
+    animation: fadeInUp 1s 0.8s forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translate(0,5vh);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(0,-1vh);
+    }
+
+    100% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+.fadeIn-Left {
+    animation: fadeInLeft 1s forwards;
+}
+
+// FADE IN LEFT
+@keyframes fadeInLeft {
+    0% {
+        transform: translate(40vw,0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(-2vw,0);
+    }
+
+    100% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+// FADE IN RIGTH
+.fadeIn-Right {
+    animation: fadeInright 1s forwards;
+}
+
+@keyframes fadeInright {
+    0% {
+        transform: translate(-40vw,0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(2vw,0);
+    }
+
+    100% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+// FADE OUT
+.fadeOut {
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0,30vh);
+        opacity: 0;    
+    }
+}
+
+// TIP
+.animTip {
+    animation: animTip 3s forwards;
+}
+
+@keyframes animTip {
+    0% {
+        visibility: visible;
+        transform: translateY(-2vh);
+        opacity: 0;
+    }
+
+    30% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    90% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
